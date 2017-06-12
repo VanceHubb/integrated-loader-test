@@ -1,0 +1,27 @@
+{
+  "name": "integrated-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "webpack": "^2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "profile": "webpack --watch --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanceHubb/integrated-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanceHubb/integrated-loader/issues"
+  },
+  "homepage": "https://github.com/VanceHubb/integrated-loader#readme"
+}
