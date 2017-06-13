@@ -1,0 +1,15 @@
+{
+  "name": "integrated-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "postcss": "^6.0.2"
+  }
+}

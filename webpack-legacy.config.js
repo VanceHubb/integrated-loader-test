@@ -11,7 +11,7 @@ module.exports = function () {
         module: {
             rules: [{
                 test: /\.(css|scss)$/,
-                use: ['integrated-loader']
+                use: ['raw-loader','sass-loader']
             }]
         },
         resolve: {
