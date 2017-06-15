@@ -1,4 +1,5 @@
 let path = require('path');
+const EmitLoader = require("emit-loader/plugin");
 
 module.exports = function () {
     return {
@@ -11,11 +12,11 @@ module.exports = function () {
         module: {
             rules: [{
                 test: /\.(css|scss)$/,
-                use: ['integrated-loader']
+                use: ['raw-loader', 'postcss-loader?sourceMap', 'sass-loader?sourceMap']
             }]
         },
-        resolve: {
-            extensions: [".js", ".css", ".sass"]
-        }
+        plugins: [
+            // new EmitLoader("styles.css")
+        ]
     }
 }

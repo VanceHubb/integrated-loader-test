@@ -1,5 +1,5 @@
 {
-  "name": "integrated-loader",
+  "name": "emit-loader",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,5 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cli-spinner": "^0.2.6",
-    "node-sass": "^4.5.3",
-    "postcss": "^6.0.2"
   }
 }

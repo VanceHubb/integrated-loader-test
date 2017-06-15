@@ -1,4 +1,7 @@
 node_modules/
 intermediate/
 assets/*benchmark/
+sass-loader/
 .DS_Store
+.vscode/
+dist/

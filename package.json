@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^7.1.1",
     "css-loader": "^0.28.4",
+    "emit-loader": "file:emit-loader",
+    "extract-text-webpack-plugin": "^2.1.2",
     "integrated-loader": "file:integrated-loader",
+    "postcss": "^6.0.2",
+    "postcss-loader": "^2.0.6",
     "raw-loader": "^0.5.1",
+    "resolve-url-loader": "^2.0.2",
     "sass-loader": "^6.0.5",
     "webpack": "^2"
   },
